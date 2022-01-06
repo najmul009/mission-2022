@@ -7,6 +7,7 @@ body{
     display: flex;
     height: 600px;
 }
+/* section 1 */
 
 .half-width{
     box-sizing: border-box;
@@ -21,7 +22,6 @@ body{
 }
 h1{
     font-size: 50px;
-    margin: px;
 }
 #li1{
     margin: 7px 0px 40px 0px;
@@ -60,4 +60,41 @@ h1{
 }
 .anchor-button:hover{
     background: linear-gradient(to right,  rgb(241, 53, 20), rgb(233, 138, 122));
+}
+
+/* section 2 */
+
+
+.my-mission  h1 {
+    text-align: center;
+    font-weight:bolder;
+    font-family: "Rubik", sans-serif;
+}
+.mission-list{
+    padding: 0px 150px;
+}
+.mission-list div h3{
+    font-family: "Rubik", sans-serif;
+    font-size: 25px;
+}
+.mission-list div img{
+    width: 50%;
+}
+.mission-list div{
+    box-sizing: border-box;
+    width: 32%;
+    height: 64%;
+    padding: 30px 30px;
+    border-radius: 25px;
+}
+.mission{
+    background-color: rgb(169, 219, 219);
+}
+.vission{
+    background-color: rgb(210, 175, 243);
+    margin-left: 20px;
+}
+.goals{
+    background-color: #fff4d6;
+    margin-left: 20px;
 }
