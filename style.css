@@ -86,6 +86,11 @@ h1{
     height: 64%;
     padding: 30px 30px;
     border-radius: 25px;
+    box-shadow: 5px 5px 5px #dfdddd;
+}
+.mission-list div:hover{
+
+    box-shadow: -5px -5px 5px #c4c2c2; 
 }
 .mission{
     background-color: rgb(169, 219, 219);
@@ -97,4 +102,54 @@ h1{
 .goals{
     background-color: #fff4d6;
     margin-left: 20px;
+}
+
+/* section 3 */
+
+.developer-area div img{
+    width: 80%;
+    
+}
+.developer-area{
+    background: url(images/shapes/shape-1.png) no-repeat ;
+    background-size: 220px;
+    background-position-x: 60px;
+    background-position-y: 50px ;
+    padding-left: 150px;
+    float: left;
+
+}
+h2{
+    font-family: "Rubik", sans-serif;
+    font-size: 40px;
+}
+.developer-area div{
+    margin: 0;
+    padding: 0;
+    width: 40%;
+}
+.clear{
+    clear: both;
+}
+    /* section 4 */
+
+
+.community div img{
+    width: 80%;
+    margin-left: 90px;
+    
+}
+.community div{
+    margin: 0;
+    padding: 0;
+    width: 40%;
+}
+.community{
+    background: url(images/shapes/shape-1.png) no-repeat right ;
+    background-size: 200px;
+    background-position-x: 1000px;
+    background-position-y: 270px ;
+    padding-left: 150px;
+    float: right;
+
 }
